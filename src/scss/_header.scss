@@ -1,6 +1,20 @@
 .header {
   background: url(../img/bg-header.png) 100% 100%/cover no-repeat;
+  color: #f0f4f6;
+}
+.header-top {
+  margin-top: 11px;
+  margin-bottom: 10px;
+}
+.header-navbar {
+  background-color: $green;
 }
 .navbar-nav {
   width: 100% !important;
+}
+.nav-link {
+  color: #f0f7fb;
+  font-size: remy(20px);
+  font-weight: 500;
+  line-height: remy(20px);
 }
