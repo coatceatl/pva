@@ -68,6 +68,35 @@
   font-weight: 500;
   line-height: 1.25rem; }
 
+.hero-content {
+  height: 452px;
+  margin-top: 100px;
+  margin-bottom: 44px; }
+
+.header-title {
+  font-family: 'Meta Serif';
+  font-size: 3.75rem;
+  font-weight: 900;
+  color: #eef4f7; }
+
+.header-subtitle {
+  font-family: 'Meta Serif';
+  font-size: 2.8125rem;
+  font-weight: 600;
+  color: #f0f7f7; }
+
+.heading-title2 {
+  font-family: 'Meta Serif';
+  font-size: 2.1875rem;
+  font-weight: 500;
+  color: #eff4f7; }
+
+.remark {
+  font-family: 'Meta Serif';
+  font-size: 1.0625rem;
+  font-weight: 400;
+  color: #555657; }
+
 .benefits {
   background-image: linear-gradient(to top, #009776 0%, #553ac4 100%);
   opacity: 0.11;
