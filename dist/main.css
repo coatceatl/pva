@@ -28,6 +28,24 @@
   font-weight: 600;
   font-style: normal; }
 
+@font-face {
+  font-family: 'DIN Pro Bold';
+  src: url(fonts/DINPro-Bold.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'DIN Pro Regular';
+  src: url(fonts/DINPro-CondensedRegular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'DIN Pro Medium';
+  src: url(fonts/DINPro-Medium.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
 .green {
   color: #009776; }
 
@@ -92,7 +110,7 @@
   color: #eff4f7; }
 
 .remark {
-  font-family: 'Meta Serif';
+  font-family: 'DIN Pro Regular';
   font-size: 1.0625rem;
   font-weight: 400;
   color: #555657; }

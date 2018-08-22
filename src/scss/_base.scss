@@ -28,7 +28,24 @@
        font-weight: 600;
        font-style: normal;
 }
-
+@font-face {
+  font-family: 'DIN Pro Bold';
+  src: url('../fonts/DINPro-Bold.ttf') format('truetype');
+       font-weight: normal;
+       font-style: normal;
+}
+@font-face {
+  font-family: 'DIN Pro Regular';
+  src: url('../fonts/DINPro-CondensedRegular.ttf') format('truetype');
+       font-weight: normal;
+       font-style: normal;
+}
+@font-face {
+  font-family: 'DIN Pro Medium';
+  src: url('../fonts/DINPro-Medium.ttf') format('truetype');
+       font-weight: normal;
+       font-style: normal;
+}
 
 .green {
   color: $green;
