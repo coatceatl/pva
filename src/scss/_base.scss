@@ -4,7 +4,35 @@
        font-weight: 900;
        font-style: normal;
 }
+@font-face {
+  font-family: 'MetaSerif';
+  src: url('../fonts/MetaSerifPro-Black.otf') format('opentype');
+       font-weight: 900;
+       font-style: normal;
+}
+@font-face {
+  font-family: 'MetaSerif';
+  src: url('../fonts/MetaSerifPro-Bold.otf') format('opentype');
+       font-weight: 700;
+       font-style: normal;
+}
+@font-face {
+  font-family: 'MetaSerif';
+  src: url('../fonts/MetaSerifPro-Book.otf') format('opentype');
+       font-weight: 500;
+       font-style: normal;
+}
+@font-face {
+  font-family: 'MetaSerif';
+  src: url('../fonts/MetaSerifPro-Medi.otf') format('opentype');
+       font-weight: 600;
+       font-style: normal;
+}
 
+
+.green {
+  color: $green;
+}
 .btn.btn-violet {
   color: #f5efef;
   font-size: remy(22px);

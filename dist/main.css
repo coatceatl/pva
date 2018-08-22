@@ -4,6 +4,33 @@
   font-weight: 900;
   font-style: normal; }
 
+@font-face {
+  font-family: 'MetaSerif';
+  src: url(fonts/MetaSerifPro-Black.otf) format("opentype");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'MetaSerif';
+  src: url(fonts/MetaSerifPro-Bold.otf) format("opentype");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'MetaSerif';
+  src: url(fonts/MetaSerifPro-Book.otf) format("opentype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'MetaSerif';
+  src: url(fonts/MetaSerifPro-Medi.otf) format("opentype");
+  font-weight: 600;
+  font-style: normal; }
+
+.green {
+  color: #009776; }
+
 .btn.btn-violet {
   color: #f5efef;
   font-size: 1.375rem;
@@ -43,7 +70,8 @@
 
 .benefits {
   background-image: linear-gradient(to top, #009776 0%, #553ac4 100%);
-  opacity: 0.11; }
+  opacity: 0.11;
+  padding-top: 150px; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
