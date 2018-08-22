@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(fonts/Montserrat-Black_0.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
 .btn.btn-violet {
   color: #f5efef;
   font-size: 1.375rem;
@@ -8,9 +14,16 @@
   border-radius: 29px;
   box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.19); }
 
+.heading-bold {
+  font-family: 'Montserrat';
+  font-size: 5.3125rem;
+  text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.7);
+  opacity: 0.88; }
+
 .header {
   background: url(img/bg-header.png) 100% 100%/cover no-repeat;
-  color: #f0f4f6; }
+  color: #f0f4f6;
+  height: 790px; }
 
 .header-top {
   margin-top: 11px;
@@ -27,6 +40,10 @@
   font-size: 1.25rem;
   font-weight: 500;
   line-height: 1.25rem; }
+
+.benefits {
+  background-image: linear-gradient(to top, #009776 0%, #553ac4 100%);
+  opacity: 0.11; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)

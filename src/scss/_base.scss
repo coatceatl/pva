@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Black_0.ttf') format('truetype');
+       font-weight: 900;
+       font-style: normal;
+}
+
 .btn.btn-violet {
   color: #f5efef;
   font-size: remy(22px);
@@ -7,4 +14,10 @@
   background: linear-gradient(to top, #553ac4 0%, #553ac4 50%, #957fef 100%);
   border-radius: 29px;
   box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.19);
+}
+.heading-bold {
+  font-family: 'Montserrat';
+  font-size: remy(85px);
+  text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.7);
+  opacity: 0.88;
 }
