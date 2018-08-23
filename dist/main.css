@@ -103,12 +103,16 @@
   font-family: 'DIN Pro Regular';
   font-size: 1.375rem;
   font-weight: 400;
-  line-height: 1.3125rem; }
+  line-height: 1.3125rem;
+  letter-spacing: 2.8px; }
 
 .info-bold {
+  font-family: 'DIN Pro Medium';
   color: #eef5f8;
   font-weight: 700;
-  margin-top: 15px; }
+  margin-top: 14px;
+  line-height: 1.25rem;
+  letter-spacing: 0; }
 
 .header-navbar {
   background-color: #009776; }
@@ -117,10 +121,14 @@
   width: 100% !important; }
 
 .nav-link {
+  font-family: 'DIN Pro Medium';
   color: #f0f7fb;
   font-size: 1.25rem;
   font-weight: 500;
   line-height: 1.25rem; }
+  .nav-link:hover {
+    color: #f0f7fb;
+    text-decoration: underline; }
 
 .navbar-toggler-icon {
   background-color: #dadbdd; }
@@ -134,7 +142,8 @@
   font-family: 'Meta Serif';
   font-size: 3.75rem;
   font-weight: 900;
-  color: #eef4f7; }
+  color: #eef4f7;
+  line-height: 55px; }
   @media (max-width: 992px) {
     .header-title {
       font-size: 3.125rem; } }
@@ -152,7 +161,8 @@
   font-family: 'Meta Serif';
   font-size: 2.8125rem;
   font-weight: 600;
-  color: #f0f7f7; }
+  color: #f0f7f7;
+  line-height: 43px; }
   @media (max-width: 992px) {
     .header-subtitle {
       font-size: 2.5rem; } }
@@ -170,7 +180,8 @@
   font-family: 'Meta Serif';
   font-size: 2.1875rem;
   font-weight: 500;
-  color: #eff4f7; }
+  color: #eff4f7;
+  line-height: 35px; }
   @media (max-width: 992px) {
     .heading-title2 {
       font-size: 1.875rem; } }
@@ -188,7 +199,8 @@
   font-family: 'Meta Serif';
   font-size: 2.8125rem;
   font-weight: 500;
-  color: #eff4f7; }
+  color: #eff4f7;
+  line-height: 45px; }
   @media (max-width: 992px) {
     .heading-title3 {
       font-size: 1.875rem; } }
