@@ -60,14 +60,26 @@
   color: #f6f9fb;
 }
 .btn.btn-violet {
+  font-family: 'DIN Pro Bold';
   color: #f5efef;
   font-size: remy(22px);
   font-weight: 700;
   line-height: remy(13px);
-  padding: 21px 52px 22px 52px;
+  padding: 21px 51px;
   background: linear-gradient(to top, #553ac4 0%, #553ac4 50%, #957fef 100%);
   border-radius: 29px;
+  border: 0;
   box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.19);
+  &:hover {
+    color: #f5efef;
+    background: linear-gradient(to top, #3f1fc5 0%, #3f1fc5 50%, #957fef 100%);
+    outline: none;
+  }
+  &:focus,
+  &:active {
+    background-color: #17055e;
+    outline: none;
+  }
 }
 .heading-bold {
   font-family: 'Montserrat';

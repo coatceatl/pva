@@ -44,10 +44,16 @@
   font-size: remy(60px);
   font-weight: 900;
   color: #eef4f7;
+  @media (max-width: 992px) {
+    font-size: remy(50px);
+  }
   @media (max-width: 768px) {
+    font-size: remy(32px);
+  }
+  @media (max-width: 480px) {
     font-size: remy(24px);
   }
-  @media (max-width: 576px) {
+  @media (max-width: 320px) {
     font-size: remy(18px);
   }
 }
@@ -56,10 +62,16 @@
   font-size: remy(45px);
   font-weight: 600;
   color: #f0f7f7;
+  @media (max-width: 992px) {
+    font-size: remy(40px);
+  }
   @media (max-width: 768px) {
+    font-size: remy(28px);
+  }
+  @media (max-width: 480px) {
     font-size: remy(20px);
   }
-  @media (max-width: 576px) {
+  @media (max-width: 320px) {
     font-size: remy(16px);
   }
 }
@@ -68,10 +80,34 @@
   font-size: remy(35px);
   font-weight: 500;
   color: #eff4f7;
+  @media (max-width: 992px) {
+    font-size: remy(30px);
+  }
   @media (max-width: 768px) {
+    font-size: remy(26px);
+  }
+  @media (max-width: 480px) {
     font-size: remy(18px);
   }
-  @media (max-width: 576px) {
+  @media (max-width: 320px) {
+    font-size: remy(12px);
+  }
+}
+.heading-title3 {
+  font-family: 'Meta Serif';
+  font-size: remy(45px);
+  font-weight: 500;
+  color: #eff4f7;
+  @media (max-width: 992px) {
+    font-size: remy(30px);
+  }
+  @media (max-width: 768px) {
+    font-size: remy(26px);
+  }
+  @media (max-width: 480px) {
+    font-size: remy(18px);
+  }
+  @media (max-width: 320px) {
     font-size: remy(12px);
   }
 }
@@ -81,9 +117,12 @@
   font-weight: 400;
   color: #555657;
   @media (max-width: 768px) {
+    font-size: remy(12px);
+  }
+  @media (max-width: 480px) {
     font-size: remy(8px);
   }
-  @media (max-width: 576px) {
+  @media (max-width: 320px) {
     font-size: remy(6px);
   }
 }

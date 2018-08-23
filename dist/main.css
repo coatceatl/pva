@@ -60,14 +60,23 @@
   color: #f6f9fb; }
 
 .btn.btn-violet {
+  font-family: 'DIN Pro Bold';
   color: #f5efef;
   font-size: 1.375rem;
   font-weight: 700;
   line-height: 0.8125rem;
-  padding: 21px 52px 22px 52px;
+  padding: 21px 51px;
   background: linear-gradient(to top, #553ac4 0%, #553ac4 50%, #957fef 100%);
   border-radius: 29px;
+  border: 0;
   box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.19); }
+  .btn.btn-violet:hover {
+    color: #f5efef;
+    background: linear-gradient(to top, #3f1fc5 0%, #3f1fc5 50%, #957fef 100%);
+    outline: none; }
+  .btn.btn-violet:focus, .btn.btn-violet:active {
+    background-color: #17055e;
+    outline: none; }
 
 .heading-bold {
   font-family: 'Montserrat';
@@ -126,10 +135,16 @@
   font-size: 3.75rem;
   font-weight: 900;
   color: #eef4f7; }
+  @media (max-width: 992px) {
+    .header-title {
+      font-size: 3.125rem; } }
   @media (max-width: 768px) {
     .header-title {
+      font-size: 2rem; } }
+  @media (max-width: 480px) {
+    .header-title {
       font-size: 1.5rem; } }
-  @media (max-width: 576px) {
+  @media (max-width: 320px) {
     .header-title {
       font-size: 1.125rem; } }
 
@@ -138,10 +153,16 @@
   font-size: 2.8125rem;
   font-weight: 600;
   color: #f0f7f7; }
+  @media (max-width: 992px) {
+    .header-subtitle {
+      font-size: 2.5rem; } }
   @media (max-width: 768px) {
     .header-subtitle {
+      font-size: 1.75rem; } }
+  @media (max-width: 480px) {
+    .header-subtitle {
       font-size: 1.25rem; } }
-  @media (max-width: 576px) {
+  @media (max-width: 320px) {
     .header-subtitle {
       font-size: 1rem; } }
 
@@ -150,11 +171,35 @@
   font-size: 2.1875rem;
   font-weight: 500;
   color: #eff4f7; }
+  @media (max-width: 992px) {
+    .heading-title2 {
+      font-size: 1.875rem; } }
   @media (max-width: 768px) {
     .heading-title2 {
-      font-size: 1.125rem; } }
-  @media (max-width: 576px) {
+      font-size: 1.625rem; } }
+  @media (max-width: 480px) {
     .heading-title2 {
+      font-size: 1.125rem; } }
+  @media (max-width: 320px) {
+    .heading-title2 {
+      font-size: 0.75rem; } }
+
+.heading-title3 {
+  font-family: 'Meta Serif';
+  font-size: 2.8125rem;
+  font-weight: 500;
+  color: #eff4f7; }
+  @media (max-width: 992px) {
+    .heading-title3 {
+      font-size: 1.875rem; } }
+  @media (max-width: 768px) {
+    .heading-title3 {
+      font-size: 1.625rem; } }
+  @media (max-width: 480px) {
+    .heading-title3 {
+      font-size: 1.125rem; } }
+  @media (max-width: 320px) {
+    .heading-title3 {
       font-size: 0.75rem; } }
 
 .remark {
@@ -164,8 +209,11 @@
   color: #555657; }
   @media (max-width: 768px) {
     .remark {
+      font-size: 0.75rem; } }
+  @media (max-width: 480px) {
+    .remark {
       font-size: 0.5rem; } }
-  @media (max-width: 576px) {
+  @media (max-width: 320px) {
     .remark {
       font-size: 0.375rem; } }
 
