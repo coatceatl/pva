@@ -10,18 +10,21 @@
   line-height: 24px;
 }
 .form-application {
-   background: url(../img/bg-form.png) no-repeat;
-   z-index: 10;
-   height: 644px;
-   width: 644px;
-   margin-top: 22px;
-   margin-bottom: 39px;
-   position: relative;
-}
-.form {
-  position: absolute;
-  top: 45%;
-  left: 35%;
+  background: url(../img/bg-form.png) no-repeat;
+  background-position: center;
+  z-index: 10;
+  height: 644px;
+  width: 644px;
+  margin-top: 22px;
+  margin-bottom: 39px;
+  position: relative;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
