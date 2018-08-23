@@ -84,6 +84,11 @@
   text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.7);
   opacity: 0.88;
   line-height: 62px; }
+  @media (max-width: 320px) {
+    .heading-bold {
+      font-size: 1.375rem;
+      text-shadow: none;
+      line-height: 15px; } }
 
 .form-input {
   border: 2px solid #fff;
@@ -238,6 +243,14 @@
   display: flex;
   flex-direction: column;
   align-items: center; }
+  @media (max-width: 320px) {
+    .benefits-block {
+      background-color: #fff;
+      border: 1px solid #39a28b;
+      box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.28);
+      padding: 16px 13px;
+      align-items: flex-start;
+      margin-bottom: 11px; } }
 
 .benefits-card {
   background-color: #fff;
