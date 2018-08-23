@@ -52,6 +52,12 @@
 .bold {
   font-weight: 700; }
 
+.text-bold {
+  font-weight: 600; }
+
+.white {
+  color: #f6f9fb; }
+
 .btn.btn-violet {
   color: #f5efef;
   font-size: 1.375rem;
@@ -163,11 +169,19 @@
   line-height: 24px;
   color: #0d0e0e; }
 
-.text-bold {
-  font-weight: 600; }
-
 .icon {
   margin-right: 30px; }
+
+.application {
+  background: url(img/bg-application.png);
+  padding-top: 44px;
+  padding-bottom: 39px; }
+
+.section-heading {
+  font-family: 'Meta Serif';
+  font-weight: 500;
+  font-size: 1.875rem;
+  line-height: 24px; }
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
