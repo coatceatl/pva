@@ -80,6 +80,9 @@
     background-color: #17055e;
     outline: none;
   }
+  @media (max-width: 320px) {
+    font-size: remy(14px);
+  }
 }
 .heading-bold {
   font-family: 'Montserrat';

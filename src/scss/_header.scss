@@ -14,6 +14,23 @@
   font-weight: 400;
   line-height: remy(21px);
   letter-spacing: 2.8px;
+  @media (max-width: 480px) {
+    font-size: remy(12px);
+  }
+  @media (max-width: 320px) {
+    font-size: remy(10px);
+    width: 33%;
+  }
+}
+.header-info-block {
+  display: flex;
+  @media (max-width: 320px) {
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    align-items: flex-end;
+    width: inherit;
+  }
 }
 .info-bold {
   font-family: 'DIN Pro Medium';
@@ -22,6 +39,24 @@
   margin-top: 14px;
   line-height: remy(20px);
   letter-spacing: 0;
+  @media (max-width: 320px) {
+    margin-top: 0;
+  }
+}
+.header-logo {
+  @media (max-width: 320px) {
+    position: absolute !important;
+    top: 6px;
+    left: 35%;
+  }
+}
+.logo img {
+  width: 151px;
+  height: 93px;
+  @media (max-width: 320px) {
+    width: 80px;
+    height: 49px;
+  }
 }
 .header-navbar {
   background-color: $green;
@@ -36,17 +71,20 @@
   font-weight: 500;
   line-height: remy(20px);
   &:hover {
-    color: #f0f7fb;
-    text-decoration: underline;
+    color: #f0f7fb !important;
+    text-decoration: underline !important;
   }
 }
 .navbar-toggler-icon {
   background-color: #dadbdd;
 }
-.hero-content {
-  height: 452px;
-  margin-top: 100px;
-  margin-bottom: 44px;
+.header-hero {
+  height: calc(100% - 191px);
+  padding-top: 100px;
+  padding-bottom: 44px;
+}
+.hero-subtitle {
+  margin-left: 90px !important;
 }
 .header-title {
   font-family: 'Meta Serif';
