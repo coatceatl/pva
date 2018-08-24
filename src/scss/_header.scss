@@ -3,6 +3,9 @@
   background-size: auto;
   color: #f0f4f6;
   height: 790px;
+  @media (max-width: 320px) {
+    background: url(../img/bg-header-mobile.png) 50% 0% no-repeat;
+  }
 }
 .header-top {
   padding-top: 11px;
@@ -104,9 +107,16 @@
   height: calc(100% - 191px);
   padding-top: 100px;
   padding-bottom: 44px;
+  @media (max-width: 480px) {
+    padding-top:36px;
+    height: max-content;
+  }
 }
 .hero-subtitle {
   margin-left: 90px !important;
+  @media (max-width: 480px) {
+    margin-left: 0 !important;
+  }
 }
 .header-title {
   font-family: 'Meta Serif';
@@ -125,6 +135,7 @@
   }
   @media (max-width: 320px) {
     font-size: remy(18px);
+    line-height: 17px;
   }
 }
 .header-subtitle {

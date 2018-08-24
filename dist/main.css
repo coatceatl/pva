@@ -101,6 +101,9 @@
   background-size: auto;
   color: #f0f4f6;
   height: 790px; }
+  @media (max-width: 320px) {
+    .header {
+      background: url(img/bg-header-mobile.png) 50% 0% no-repeat; } }
 
 .header-top {
   padding-top: 11px;
@@ -199,9 +202,16 @@
   height: calc(100% - 191px);
   padding-top: 100px;
   padding-bottom: 44px; }
+  @media (max-width: 480px) {
+    .header-hero {
+      padding-top: 36px;
+      height: max-content; } }
 
 .hero-subtitle {
   margin-left: 90px !important; }
+  @media (max-width: 480px) {
+    .hero-subtitle {
+      margin-left: 0 !important; } }
 
 .header-title {
   font-family: 'Meta Serif';
@@ -220,7 +230,8 @@
       font-size: 1.5rem; } }
   @media (max-width: 320px) {
     .header-title {
-      font-size: 1.125rem; } }
+      font-size: 1.125rem;
+      line-height: 17px; } }
 
 .header-subtitle {
   font-family: 'Meta Serif';
@@ -3355,7 +3366,7 @@ input[type="button"].btn-block {
     color: rgba(0, 0, 0, 0.9); }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #090909; }
+  color: #f0f7fb; }
   .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
     color: rgba(0, 0, 0, 0.7); }
   .navbar-light .navbar-nav .nav-link.disabled {
@@ -3368,14 +3379,14 @@ input[type="button"].btn-block {
   color: rgba(0, 0, 0, 0.9); }
 
 .navbar-light .navbar-toggler {
-  color: #090909;
+  color: #f0f7fb;
   border-color: #dadbdd; }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23090909' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23f0f7fb' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
 
 .navbar-light .navbar-text {
-  color: #090909; }
+  color: #f0f7fb; }
   .navbar-light .navbar-text a {
     color: rgba(0, 0, 0, 0.9); }
     .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
