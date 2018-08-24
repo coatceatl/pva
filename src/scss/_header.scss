@@ -124,6 +124,7 @@
   font-weight: 900;
   color: #eef4f7;
   line-height: 55px;
+  margin-top: -85px;
   @media (max-width: 992px) {
     font-size: remy(50px);
   }
@@ -209,4 +210,21 @@
   @media (max-width: 320px) {
     font-size: remy(6px);
   }
+}
+.header-border {
+  border: 4px solid #009776;
+  border-radius: 84px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+//  border-top: none;
+/*  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    border-top: 4px solid #009776;
+    width: calc(100% - 40px);
+  }
+  */
 }
